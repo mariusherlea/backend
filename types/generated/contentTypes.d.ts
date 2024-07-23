@@ -425,7 +425,6 @@ export interface ApiRoomRoom extends Schema.CollectionType {
       'oneToMany',
       'api::reservation.reservation'
     >;
-    discount: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -46,9 +46,6 @@
       "relation": "oneToMany",
       "target": "api::reservation.reservation",
       "mappedBy": "room"
-    },
-    "discount": {
-      "type": "integer"
     }
   }
 }
